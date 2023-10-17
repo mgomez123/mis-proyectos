@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    text-align: center;
+}
+
+body {
+    margin-bottom: 5%;
+    background-color: rgba(48, 87, 161, 0.295);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.encabezado {
+    padding: 0px;
+    text-align: center;
+    background-image: url('../img/banner_libreria_la_paz.png')
+    height: 450px;
+}
+
+.titulo {
+    font-size: 70px;
+    margin: 0;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: azure;
+    text-shadow: 10px 10px 10px red;
+}
+
+.subtitulo {
+    background-color: rgba(40, 123, 154, 0.473);
+    font-size: 60px;
+    margin-left: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(22, 123, 162);
+}
+
+.subtitulo h2 {
+    color: rgb(255, 254, 254);
+    text-shadow: 20px 20px 20px rgba(11, 42, 49, 0.8);
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo {
+    position: absolute;
+    margin-right: 0;
+}
+
+.contenido {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 80px;
+    font-size: 20px;
+}
+
+/* Estilos para los botones de navegación */
+nav > a {
+    background-color: #208bc1;
+    color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 15px 32px;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Cambiar el color de fondo cuando se pasa el cursor sobre los botones */
+nav > a:hover {
+    background-color: #0eeeeea1;
+}
+
+/* Cambiar el color de fondo cuando se hace clic en los botones */
+nav > a:active {
+    background-color: #0c2286ba;
+    box-shadow: 0 5px rgba(102, 102, 102, 0.822);
+    transform: translateY(8px);
+}

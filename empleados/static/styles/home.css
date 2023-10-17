@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    text-align: center;
+}
+
+body {
+    margin-bottom: 5%;
+    background-color: #3057a14b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para la barra de navegación */
+@media (max-width: 768px) {
+    .navbar {
+        background-color: transparent;
+        display: flex;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif
+    }
+}
+
+nav>a:hover {background-color: #0eeeeea1}/*flotabilidad*/
+
+nav>a:active {
+    background-color: #0c2286ba;
+    box-shadow: 0 5px rgba(102, 102, 102, 0.822);
+    transform: translateY(8px);
+}
+
+/* Estilos para la imagen de encabezado */
+.imagen-encabezado img {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: 100%; /* Ajusta la altura de la imagen al 100% del contenedor */
+    object-fit: cover; /* Ajusta cómo se ajusta la imagen dentro del contenedor */
+}
+
+/* Estilos para el subtítulo */
+.subtitulo {
+    background-color: rgba(40, 123, 154, 0.473);
+    font-size: 60px;
+    margin: 0px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(237, 247, 250);
+    text-shadow: 2px 2px 2px rgba(11, 42, 49, 0.8);
+}
+.subtitulo h2 {
+    color: rgb(255, 254, 254);
+    text-shadow: 20px 20px 20px rgba(11, 42, 49, 0.8);
+    font-size: 30px;
+
+}
+
+/* Estilos para el contenido */
+.contenido {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0;
+}
+
+/* Estilos para el carrousel */
+.carousel-item img {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Estilos para las tarjetas */
+.card {
+    width: 200px; /* Ajusta según sea necesario */
+    margin: 0 10px;
+}
+
+/* Estilos generales para el pie de página */
+footer {
+    background-color: #208bc1;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
