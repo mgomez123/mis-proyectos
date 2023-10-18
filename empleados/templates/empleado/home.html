@@ -14,7 +14,10 @@
     <header>
         <nav class="navbar navbar-expand-lg" style="background-color: transparent" >
             <div class="container-fluid">
-                <a class="logo" img="{% static 'img/logolibrerialapaz.png' %}">Logo</a>
+                <a><img src="{% static 'img/logolibrerialapaz1.png' %}" style="height: 50px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                         <li class="nav-item">
@@ -63,13 +66,21 @@
         </div>
         <div class="carousel-inner" >
         <div class="carousel-item active" data-bs-interval="1000">
-            <img src="{% static "img/oferta2024.png" %}" class="d-block mx-auto w-50 d-img" alt="libreria">
+            <img src="{% static "img/oferta2024.png" %}" class="d-block mx-auto w-25 d-img" alt="libreria">
         </div>
         <div class="carousel-item" data-bs-interval="1000">
-            <img src="{% static "img/4.png" %}" class="d-block mx-auto w-50 d-img" alt="libro">
+            <img src="{% static "img/4.png" %}" class="d-block mx-auto w-25 d-img" alt="libro">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Etiqueta de la primera diapositiva</h5>
+                <p>Algún contenido placeholder representativo para la primera diapositiva.</p>
+            </div>
         </div>
         <div class="carousel-item" data-bs-interval="1000">
-            <img src="{% static "img/3.png" %}" class="d-block mx-auto w-50 d-img" alt="ygty">
+            <img src="{% static "img/3.png" %}" class="d-block mx-auto w-25 d-img" alt="ygty">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Etiqueta de la primera diapositiva</h5>
+                <p>Algún contenido placeholder representativo para la primera diapositiva.</p>
+            </div>
         </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -87,7 +98,6 @@
         <div class="card-body">
             <h5 class="card-title">Lapiceras</h5>
             <p class="card-text">Las mejores marcas disponibles</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             <a href="#" class="btn btn-primary">Comprar ahora</a>
         </div>
         </div>
@@ -96,7 +106,6 @@
         <div class="card-body">
             <h5 class="card-title">Cuadernos</h5>
             <p class="card-text">Tapa dura con Diseños Exclusivos</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             <a href="#" class="btn btn-primary">Comprar ahora</a>
         </div>
         </div>
@@ -105,10 +114,16 @@
         <div class="card-body">
             <h5 class="card-title">Cartulinas</h5>
             <p class="card-text">Más de 12 colores disponibles</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             <a href="#" class="btn btn-primary">Comprar ahora</a>
         </div>
         </div>
+        <div class="card">
+            <img src="{% static "img/utiles4.png" %}" class="card-img-top" alt="utiles1">
+            <div class="card-body">
+                <h5 class="card-title">Libros escolares</h5>
+                <p class="card-text">Las mejores marcas disponibles</p>
+                <a href="#" class="btn btn-primary">Comprar ahora</a>
+            </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
